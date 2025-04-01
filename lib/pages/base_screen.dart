@@ -38,6 +38,7 @@ class BaseScreen extends StatelessWidget {
           _buildDrawerItem(context, Icons.home_outlined, "Home", '/', currentRoute),
           _buildDrawerItem(context, Icons.card_giftcard_outlined, "Flashcard", '/flashcard', currentRoute),
           _buildDrawerItem(context, Icons.settings_outlined, "Settings", '/settings', currentRoute),
+          _buildDrawerItem(context, Icons.airplane_ticket_outlined, "Ticket App", '/ticket', currentRoute),
         ],
       ),
     );

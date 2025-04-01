@@ -3,6 +3,7 @@ import 'package:untitled/pages/flashcard/flashcard_app.dart';
 
 import 'package:untitled/pages/home_screen.dart';
 import 'package:untitled/pages/settings/settings_screen.dart';
+import 'package:untitled/pages/ticket/ticket_app.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/flashcard': (context) => FlashcardScreen(),
         '/settings': (context) => SettingsScreen(),
+        '/ticket': (context) => TicketApp(),
       },
     );
   }
